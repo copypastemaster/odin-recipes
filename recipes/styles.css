@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(202, 220, 223);
+    background-color: rgb(135, 143, 184);
 }
 
 /* 
@@ -25,6 +25,17 @@ For index page --
     text-align: center;
 }
 
+ul {
+    margin-left: 10px;
+    padding: 0%;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: left;
+    padding: 2px;
+    
+}
 
 
 
