@@ -1,6 +1,10 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+   
+}
+
+body {
+    background-color: rgb(202, 220, 223);
 }
 
 /* 
@@ -9,10 +13,18 @@ For index page --
 */
 
 .container {
-    background-color: red;
-    margin: 50px;
-    
+    background-color: rgb(104, 148, 168);
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0%;
 }
+
+.container h1{
+    color: rgb(211, 186, 186);
+    text-align: center;
+}
+
 
 
 
