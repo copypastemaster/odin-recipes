@@ -17,12 +17,14 @@ For index page --
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
-    padding: 0%;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .container h1{
     color: rgb(211, 186, 186);
     text-align: center;
+    
 }
 
 ul {
@@ -30,11 +32,18 @@ ul {
     padding: 0%;
 }
 
-ul li {
+.recipes {
     list-style-type: none;
     text-align: left;
-    padding: 2px;
-    
+    padding: 20px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+ul li a {
+    text-decoration:solid;
+    font-weight: 500px;
+    color: white;
 }
 
 
@@ -44,6 +53,7 @@ ul li {
 .Scrambled-egg-pic {
     height: auto;
     width: 360px;
+    
 }
 
 .Hotdog-pic {
