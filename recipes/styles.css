@@ -1,7 +1,22 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
+
+/* 
+For index page --
+
+*/
+
+.container {
+    background-color: red;
+    margin: 50px;
+    
+}
+
+
+
+
 
 .Scrambled-egg-pic {
     height: auto;
