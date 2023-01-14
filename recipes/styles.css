@@ -1,5 +1,5 @@
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:cursive;
    
 }
 
@@ -13,37 +13,40 @@ For index page --
 */
 
 .container {
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(72, 77, 80);
-    width: 500px;
+    width: 90%;
     margin: 0 auto;
-    padding: 5px;
     border-radius: 20px;
-    height: 400px;
+    height: 100px;
+    justify-content: space-between;
+    padding: 1rem;
+    
 }
 
 .container h1{
     color: rgb(211, 186, 186);
-    text-align: center;
-    
+    flex-grow: 1;
 }
 
 ul {
-    margin-left: 10px;
-    padding: 0%;
+    display: flex;
+    max-width: 100%;
+    align-items: flex-end;
+    gap: 50px;
+    flex-shrink: 1;
 }
 
 ul li {
     list-style-type: none;
-    text-align: left;
-    padding: 20px;
-    display: inline-block;
-    margin-left: 74px;
 }
 
 ul li a {
     text-decoration:solid;
     font-weight: 500px;
     color: white;
+    font-size: 20px;
 }
 
 
