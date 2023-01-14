@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(135, 143, 184);
+    background-color: rgb(226, 229, 231);
 }
 
 /* 
@@ -13,11 +13,12 @@ For index page --
 */
 
 .container {
-    background-color: rgb(104, 148, 168);
+    background-color: rgb(72, 77, 80);
     width: 500px;
     margin: 0 auto;
     padding: 5px;
     border-radius: 20px;
+    height: 400px;
 }
 
 .container h1{
