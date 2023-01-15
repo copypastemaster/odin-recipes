@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: rgb(226, 229, 231);
+    background: hsl(210deg, 30%, 12%);
+    color: hsl(0deg 0% 100%);
 }
 
 /* 
@@ -16,7 +17,8 @@ For index page --
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(132, 147, 156);
-    margin: 0 auto;
+    margin-left: 400px;
+    margin-right: 400px;
     border-radius: 20px;
     justify-content: space-between;
     align-items: flex-end;
