@@ -24,18 +24,20 @@ For index page --
 h1 {
     font-size: 50px;
     margin-bottom: 20px;
+    color: burlywood;
 }
 
 .flex-container {
     background: rgb(48, 48, 70);
     height: 100px;
     display: flex;
-    gap: 36px;
+    gap: 100px;
     justify-content: space-evenly;
     border: 1px solid white;
     flex-wrap: wrap;
     align-items: center;
     border-radius: 40px;
+    padding: 30px;
 }
 
 hr {
@@ -43,8 +45,9 @@ hr {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(204, 182, 153);
     font-size: 20px;
+    font-weight:900;
 }
 
 
