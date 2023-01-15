@@ -12,43 +12,42 @@ body {
 For index page --
 
 */
-
 .container {
+    border: 1px groove rgb(80, 78, 78);
+    margin-top: 8%;
+    display: inline-block;
+    border-radius: 40px;
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    background: rgb(48, 48, 70);
+    height: 100px;
     display: flex;
+    gap: 36px;
+    justify-content: space-evenly;
+    border: 1px solid white;
     flex-wrap: wrap;
-    background-color: rgb(132, 147, 156);
-    margin-left: 400px;
-    margin-right: 400px;
-    border-radius: 20px;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 1rem;
-    
+    align-items: center;
+    border-radius: 40px;
 }
 
-.container h1{
-    color: rgb(235, 233, 228);
-    flex-grow: 1;
+hr {
+    margin-bottom: 30px;
 }
-
-ul {
-    display: flex;
-    max-width: 100%;
-    gap: 50px;
-    flex-wrap: wrap;
-}
-
-ul li {
-    list-style-type: none;
-    flex-shrink: 1;
-}
-
-ul li a {
-    text-decoration:solid;
-    font-weight: 500px;
+a {
+    text-decoration: none;
     color: white;
     font-size: 20px;
 }
+
+
 
 
 /* end of index -- */
